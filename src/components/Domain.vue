@@ -10,9 +10,11 @@
 			</div>
 			<div class="row administer">
 				<div class="col join">
-					<button type="button" class="btn btn-warning btn-lg fw-bold fs-5">
-						회원가입
-					</button>
+					<router-link to="/">
+						<button type="button" class="btn btn-warning btn-lg fw-bold fs-5">
+							회원가입
+						</button>
+					</router-link>
 				</div>
 				<div class="col login">
 					<button type="button" class="btn btn-warning btn-lg fw-bold fs-5">
